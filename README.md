@@ -17,13 +17,13 @@ Prediksi_Saham_BBCA_menggunakan_LSTM/
 
 ## Alur Kerja (Workflow)
 
-1. **Data Loading** — memuat data historis harga saham BBCA dari folder `dataset/`.
-2. **Data Preprocessing** — pembersihan data, normalisasi/scaling (mis. MinMaxScaler), dan pembentukan *sliding window* untuk data sekuensial.
-3. **Train-Test Split** — membagi data menjadi data latih dan data uji berdasarkan urutan waktu.
-4. **Model Building** — membangun arsitektur LSTM menggunakan TensorFlow/Keras.
-5. **Training** — melatih model pada data historis.
-6. **Evaluation** — mengevaluasi performa model menggunakan metrik seperti RMSE/MAE, serta visualisasi harga aktual vs prediksi.
-7. **Model Saving** — model tersimpan sebagai `bbca_forecast_model.h5`.
+1. **Data Loading:** memuat data historis harga saham BBCA dari folder `dataset/`.
+2. **Data Preprocessing:** pembersihan data, normalisasi/scaling (mis. MinMaxScaler), dan pembentukan *sliding window* untuk data sekuensial.
+3. **Train-Test Split:** membagi data menjadi data latih dan data uji berdasarkan urutan waktu.
+4. **Model Building:** membangun arsitektur LSTM menggunakan TensorFlow/Keras.
+5. **Training:** melatih model pada data historis.
+6. **Evaluation:** mengevaluasi performa model menggunakan metrik seperti RMSE/MAE, serta visualisasi harga aktual vs prediksi.
+7. **Model Saving:** model tersimpan sebagai `bbca_forecast_model.h5`.
 
 ## Library yang Digunakan
 
@@ -62,6 +62,3 @@ Hasil prediksi divisualisasikan dalam bentuk grafik perbandingan antara harga ak
 ## Disclaimer
 
 Model dan hasil prediksi pada repository ini dibuat untuk tujuan pembelajaran/riset, **bukan** merupakan saran atau rekomendasi investasi/trading. Pergerakan harga saham dipengaruhi banyak faktor yang tidak sepenuhnya dapat ditangkap oleh model historis.
-## 📄 Lisensi
-
-Belum ada lisensi ditentukan. Tambahkan file `LICENSE` jika ingin membuat proyek ini open-source secara resmi.
